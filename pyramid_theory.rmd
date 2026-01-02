@@ -1,6 +1,6 @@
 ---
 title: "An Incremental Mastaba-Based Theory for Pyramid Construction"
-subtitle: "A Proposal & Open Questions"
+subtitle: "Initial Proposal, Open Questions"
 author: "Manuel Chirouze"
 date: "`r Sys.Date()`"
 output:
@@ -25,7 +25,206 @@ This document presents a constructive theory for Old Kingdom Egyptian pyramid co
 
 ---
 
-# 1. Core Principles
+# 0. Introduction and Key Definitions
+
+## 0.1 Historical Context: When Were the Pyramids Built?
+
+### The Old Kingdom: Egypt's "Age of the Pyramids"
+
+The Old Kingdom of Egypt (approximately 2613-2181 BCE) is known as the "Age of the Pyramids" or "Age of the Pyramid Builders." This era represents the zenith of pyramid construction and centralized royal power in ancient Egypt.
+
+### Timeline of Major Pyramid Construction
+
+**Third Dynasty (c. 2686-2613 BCE)**
+
+The Step Pyramid of Djoser at Saqqara, built around 2670 BCE (approximately 4,700 years ago), marks the revolutionary beginning of monumental stone architecture. Designed by the architect Imhotep, this structure represented the first major departure from traditional mastaba tombs by stacking six progressively smaller mastabas to create a stepped pyramid.
+
+**Fourth Dynasty (2613-2494 BCE): The Golden Age**
+
+The Fourth Dynasty saw pyramid construction reach its peak in scale and engineering sophistication:
+
+- **Sneferu** (2613-2589 BCE): The dynasty's founder experimented extensively with pyramid design, building the Meidum Pyramid, the Bent Pyramid at Dahshur, and the Red Pyramid. Sneferu used more stone than any other pharaoh in history, establishing the techniques his successors would perfect.
+
+- **Khufu** (2589-2566 BCE): Built the Great Pyramid of Giza (c. 2580-2560 BCE), the largest pyramid ever constructed. Originally standing at 146.6 meters (481 feet) with approximately 2.3 million blocks, it remains the only surviving Wonder of the Ancient World.
+
+- **Khafre** (2558-2532 BCE): Khufu's son built the second pyramid at Giza around 2570-2520 BCE, which appears taller due to its elevated position. His complex includes the Great Sphinx, likely carved during his reign.
+
+- **Menkaure** (2532-2503 BCE): Built the smallest of the three main Giza pyramids around 2510-2490 BCE, standing approximately 65 meters high. Though smaller, it features elaborate temple complexes and unique architectural details.
+
+The Giza pyramids were constructed in a span of approximately 85 years between 2589 and 2504 BCE.
+
+**Fifth Dynasty and Beyond (2494-2345 BCE)**
+
+The Fifth Dynasty began with Userkaf (2494-2487 BCE) and was marked by the growing importance of sun god Ra. Pyramid construction gradually declined in scale and complexity during this period, largely due to resource constraints and shifts in religious practices.
+
+### Construction Duration
+
+Ancient historian Herodotus, writing around 449 BCE, stated that the Great Pyramid required 100,000 workers over 20 years. Modern historians estimate construction took anywhere from 15 to 30 years for the Great Pyramid. The 20-year timeframe remains the most commonly cited estimate for the Great Pyramid's construction.
+
+### Archaeological Dating Challenges
+
+Radiocarbon dating studies conducted in 1984 and 1995 on organic materials from pyramid mortar yielded dates averaging 374 years older than historical estimates. Researchers attribute this discrepancy to the "old wood effect"—pyramid builders recycled ancient wood from Egypt's diminishing forests for fuel, causing radiocarbon dates to skew older. Despite this challenge, the dates confirm the pyramids belong to the Old Kingdom period established by Egyptologists.
+
+## 0.2 Key Architectural Definitions
+
+### Mastaba
+
+**Etymology and Basic Description**
+
+A mastaba is a type of ancient Egyptian tomb in the form of a flat-roofed, rectangular structure with inward sloping sides. The term comes from the Arabic word for "bench," reflecting the structure's distinctive bench-like appearance.
+
+In ancient Egyptian, mastabas were called "pr-dd" (per-djed), meaning "house of stability," "house of eternity," or "eternal house."
+
+**Physical Characteristics**
+
+Mastabas were constructed from mudbricks made from Nile soil or, later, limestone. They were typically about four times as long as they were wide, with many rising to at least 10 meters (30 feet) in height. They were oriented north-south, which ancient Egyptians believed was essential for access to the afterlife.
+
+**Structure and Function**
+
+A deep shaft descended from the mastaba's superstructure to an underground burial chamber. After burial, workers filled this shaft to prevent access to the remains. More elaborate mastabas included multiple chambers for grave goods, offering chapels, and false doors believed to allow the deceased's spirit (ka) to receive offerings.
+
+**Historical Usage**
+
+Mastabas marked the burial sites of pharaohs and the social elite during Egypt's Early Dynastic Period and Old Kingdom. When pharaohs transitioned to pyramid burials starting in the Third Dynasty, non-royal use of mastabas continued for over a thousand years.
+
+**Relationship to Pyramids**
+
+The Step Pyramid of Djoser at Saqqara demonstrates the evolutionary link between mastabas and pyramids—it consists essentially of six mastabas of decreasing size stacked on top of one another. This architectural innovation by Imhotep marked the transition from simple mastaba tombs to the monumental pyramids that followed.
+
+### Other Key Terms
+
+**Cribbing**: A construction technique involving the incremental lifting of heavy objects using wooden supports (cribs) and levers. After each small lift, wooden blocks are inserted beneath the object to support it at the new height.
+
+**Sled (or Sledge)**: A wooden transport device with runners, used by ancient Egyptians to move heavy stone blocks across prepared surfaces. Depictions in tomb paintings show workers pulling sleds over wetted sand or mud to reduce friction.
+
+**Casing Stones**: The smooth, polished outer layer of pyramids, typically made of fine Tura limestone. The pyramids were originally covered in these stones that gleamed in sunlight, making them shine like massive jewels. Most casing has been removed over millennia, though traces remain near the apex of Khafre's pyramid.
+
+**Corbelling**: An architectural technique using overlapping stones to create a gradual inward slope, forming vaulted ceilings or passages. The Grand Gallery in the Great Pyramid exemplifies corbelled construction.
+
+---
+
+# 1. Background: Existing Theories and Their Challenges
+
+## 1.1 The Enduring Mystery
+
+For millennia, the construction of Egypt's Old Kingdom pyramids has captivated engineers, archaeologists, and the public. The Great Pyramid of Khufu alone contains approximately 2.3 million stone blocks, each averaging 2.5 tonnes, stacked to a height of 146.6 meters with remarkable precision. The fundamental question remains: how did a civilization without wheeled vehicles, pulleys, or iron tools move and elevate such massive stones?
+
+## 1.2 The External Ramp Theory
+
+### The Basic Concept
+The most widely discussed theory proposes that workers hauled blocks up external ramps built alongside the pyramid. As construction progressed, ramps were extended and raised to maintain manageable slopes.
+
+### Critical Problems
+- **The linear ramp problem**: A straight ramp with the maximum feasible gradient (~8%) would need to stretch approximately 1 mile to reach the pyramid's apex
+- **Material volume**: Such a ramp would require nearly as much material as the pyramid itself, essentially doubling the construction task
+- **Space constraints**: The Giza Plateau lacks sufficient room for such massive ramps
+- **Archaeological absence**: No evidence of ramp remnants at this scale has been found at major pyramid sites
+
+### Spiral Ramp Variant
+Mark Lehner proposed a spiral ramp that wraps around the pyramid's exterior, beginning at quarries to the southeast. While more space-efficient than linear ramps, this approach faces its own challenges:  
+- Corners become increasingly tight as the pyramid narrows  
+- The ramp would obstruct visibility of corners, making precise alignment difficult  
+- Structural instability concerns with an ever-narrowing support base  
+
+## 1.3 The Internal Ramp Theory (Houdin)
+
+### The Proposal
+French architect Jean-Pierre Houdin spent over 20 years developing a theory that pyramids were built using internal ramps spiraling within the structure itself. His hypothesis, developed with 3D modeling from Dassault Systèmes, suggests:
+
+- The bottom third constructed via external ramps (up to ~141 feet)
+- Upper two-thirds built using internal spiral ramps at ~7% gradient
+- Corner notches with wooden cranes to turn blocks at 90-degree angles
+- Ramps remain embedded within the finished pyramid
+
+### Supporting Evidence
+- **1980s microgravimetric survey**: Detected spiral-pattern density variations inside the Great Pyramid
+- **Northeast corner notch**: A visible irregularity ~270 feet up, potentially a corner turning point
+- **L-shaped chamber**: Discovered by Bob Brier in 2008 behind the notch, possibly an internal ramp junction
+- **ScanPyramids "Big Void"**: 2017 muon radiography detected a 100-foot void similar in dimensions to the Grand Gallery
+
+### Academic Reception
+The theory remains controversial. Egyptologist David Jeffreys (University College London) called it "far-fetched and horribly complicated," while John Baines (Oxford) expressed skepticism about theories explaining only one pyramid. Critics note:  
+- Requires complex pre-planning of internal architecture  
+- Ramps would need precise coordination with chambers and passages  
+- No definitive internal ramp has been confirmed through non-invasive scanning  
+
+## 1.4 Experimental Archaeology
+
+### The 1992 NOVA Experiment (Lehner & Hopkins)
+Egyptologist Mark Lehner and stonemason Roger Hopkins conducted a three-week pyramid-building experiment:
+
+**Scale**: 6m high × 9m wide pyramid (~405 tons total)  
+**Blocks**: 186 stones averaging 2.2 tonnes each  
+**Labor**: 12 quarrymen carved blocks in 22 days; 44 men erected the structure  
+**Tools**: Modern iron tools (acknowledged shortcut), plus copper tool experiments  
+**Finding**: Copper tools were adequate but required constant resharpening (~20 additional workers for tool maintenance)  
+
+### Levering Experiments
+Several researchers tested incremental block-lifting methods:
+
+- **Isler (1985, 1992)**: Used wooden levers and cribbing to lift blocks incrementally. Achieved one tier lift in ~1.5 hours
+- **Keable**: Similar method with manufactured concrete shims and wooden pallets. Lifted blocks in ~2 minutes
+- **Hussey-Pailos (2005)**: Simple levering device lifted 1,100kg block one course in under 1 minute
+
+These experiments demonstrated the mechanical feasibility of incremental lifting but were conducted at small scale.
+
+### Water Lubrication Research (2014)
+Physicist Daniel Bonn's team at University of Amsterdam investigated friction reduction based on the Djehutihotep tomb painting (~1880 BCE), which depicts workers pouring water in front of a sled carrying a massive statue.
+
+**Findings**:  
+- Optimal sand moisture (~5% water content) reduced friction coefficient by nearly 50%  
+- Water creates capillary bridges between sand grains, increasing stiffness  
+- Wet sand prevents pile-up in front of sleds, dramatically reducing pulling force  
+- Effect requires precise moisture balance—too dry or too wet increases friction  
+
+**Limitations**:  
+- Some Egyptologists view water-pouring as ceremonial rather than practical  
+- Tomb inscription reads "carrying water by the house of eternity," suggesting ritual context  
+- Technique applies to horizontal transport over sand, not vertical lifting  
+
+### Denys Stocks' Tool Replication
+Mechanical engineer Denys Stocks reconstructed over 200 ancient Egyptian tools from archaeological and pictorial evidence, testing their capabilities for:  
+- Stone quarrying with copper chisels and wooden mallets  
+- Drilling with bow drills and abrasive sand  
+- Surface finishing with rubbing stones  
+
+His work established that ancient Egyptian tools were adequate for the required stonework, though labor-intensive.
+
+## 1.5 Recent Controversial Theories
+
+### Hydraulic Lift Theory (2024)
+Researchers from France's Paleotechnic Institute proposed that the Step Pyramid of Djoser was built using a water-powered hydraulic lift system. They suggested:  
+- Gisr el-Mudir enclosure functioned as a dam capturing floodwater  
+- The "Dry Moat" around the pyramid served as a water treatment facility  
+- A vertical shaft with a float-and-platform system lifted stones "volcano fashion" from the pyramid's interior  
+
+**Critical Reception**: The hypothesis faced strong skepticism from Egyptologists:  
+- No ancient texts mention hydraulic lifts despite detailed records of other technologies  
+- Insufficient water supply from occasional rains to maintain the system  
+- Djoser's blocks (~300kg) were small enough for manpower alone  
+- More effort required to build the hydraulic system than to move blocks directly  
+
+## 1.6 Gaps in Current Understanding
+
+Despite decades of research and experimentation, no theory has achieved consensus. Major unresolved questions include:
+
+- **Vertical transport at scale**: Small experiments succeed, but scaling to millions of blocks over 20 years remains unexplained
+- **Precision maintenance**: How was extraordinary accuracy (base level within 2cm over 230m) maintained across thousands of parallel operations?
+- **Special blocks**: Methods for 40+ tonne granite beams differ fundamentally from standard 2.5-tonne limestone blocks
+- **Internal architecture**: How were chambers, passages, and corbelled ceilings integrated during construction?
+- **Archaeological evidence**: Limited physical remains of construction infrastructure (ramps, tools, scaffolding)
+
+The following theory attempts to address these gaps by focusing on incremental methods, workforce parallelization, and mechanical plausibility using documented ancient techniques.
+
+---
+
+# 2. Core Principles
+
+## 2.1 Historical Precedent
+
+The theory draws on step pyramid precursors like Djoser's pyramid, demonstrating that ancient Egyptian builders understood mastaba-stacking concepts.
+
+## 2.2 Five Foundational Principles
 
 The theory rests on five foundational principles:
 
@@ -37,51 +236,51 @@ The theory rests on five foundational principles:
 
 ---
 
-# 2. The Alternating Block Strategy
+# 3. The Alternating Block Strategy  
 
-## 2.1 The Core Problem
+## 3.1 The Core Problem
 
 If blocks were placed continuously around an entire mastaba perimeter, workers would have no access to perform cribbing operations on the rear face (the side against the existing platform). This geometric constraint requires a staged approach.
 
-## 2.2 The Solution: Alternating Placement
+## 3.2 The Solution: Alternating Placement
 
-**Phase 1 - Initial Staging:**
-- Blocks are positioned around the mastaba perimeter in an **alternating pattern**
-- Every other position remains empty during initial placement
-- Gap width: approximately 1-1.5 block widths (~1.5-2m)
-- This creates access corridors on both sides of each staged block
+**Phase 1 - Initial Staging:**  
+- Blocks are positioned around the mastaba perimeter in an **alternating pattern**  
+- Every other position remains empty during initial placement  
+- Gap width: approximately 1-1.5 block widths (~1.5-2m)  
+- This creates access corridors on both sides of each staged block  
 
-**Phase 2 - Cribbing and Lifting:**
-- Workers access both the front and back of each staged block through gaps
-- Blocks are lifted incrementally using levers and cribbing stacks (see Section 3)
-- Once lifted to mastaba height, blocks remain supported on cribs
+**Phase 2 - Cribbing and Lifting:**  
+- Workers access both the front and back of each staged block through gaps  
+- Blocks are lifted incrementally using levers and cribbing stacks (see Section 3)  
+- Once lifted to mastaba height, blocks remain supported on cribs  
 
-**Phase 3 - Sled Placement and Sliding:**
-- Lifted blocks are transferred onto wooden sleds
-- Sleds slide horizontally onto the mastaba surface
-- Blocks are positioned over their final locations and lowered
+**Phase 3 - Sled Placement and Sliding:**  
+- Lifted blocks are transferred onto wooden sleds  
+- Sleds slide horizontally onto the mastaba surface  
+- Blocks are positioned over their final locations and lowered  
 
-**Phase 4 - Gap Filling:**
-- Process repeats for the previously empty positions
-- These blocks now have access because adjacent blocks have been moved inward
-- The mastaba level becomes complete and solid
+**Phase 4 - Gap Filling:**  
+- Process repeats for the previously empty positions  
+- These blocks now have access because adjacent blocks have been moved inward  
+- The mastaba level becomes complete and solid  
 
-## 2.3 Advantages of This Approach
+## 3.3 Advantages of This Approach
 
 - Maintains permanent access for cribbing operations
 - Prevents structural instability (no internal permanent voids)
 - Allows parallel work on dozens of blocks simultaneously
 - Doubles the effective workspace around the perimeter
 
-## 2.4 **OPEN QUESTION: Optimal Gap Spacing**
+## 3.4 **OPEN QUESTION: Optimal Gap Spacing**
 
 *The exact gap width and alternation pattern that maximizes worker efficiency while maintaining structural stability during partial completion needs engineering analysis. Variables include block dimensions, lever length requirements, and team movement patterns.*
 
 ---
 
-# 3. Cribbing and Levering Mechanics
+# 4. Cribbing and Levering Mechanics
 
-## 3.1 The Incremental Lift Process
+## 4.1 The Incremental Lift Process
 
 Cribbing achieves vertical lift through small, repeated increments:
 
@@ -91,7 +290,7 @@ Cribbing achieves vertical lift through small, repeated increments:
 4. **Repositioning**: Levers moved to opposite side, process repeated
 5. **Iteration**: Cycle continues until block reaches target height (~0.7m per mastaba level)
 
-## 3.2 Labor Estimate per Block
+## 4.2 Labor Estimate per Block
 
 - Average mastaba step height: 0.7m
 - Cribbing increment: 7-10cm per cycle
@@ -100,7 +299,7 @@ Cribbing achieves vertical lift through small, repeated increments:
 - Workers per cycle: 10-12 (including crib placement, lever operation, safety)
 - **Total time per block**: 4-8 hours (0.5-1.0 days)
 
-## 3.3 **OPEN QUESTIONS: Mechanical Validation**
+## 4.3 **OPEN QUESTIONS: Mechanical Validation**
 
 *The following require detailed engineering analysis:*
 
@@ -111,9 +310,9 @@ Cribbing achieves vertical lift through small, repeated increments:
 
 ---
 
-# 4. Horizontal Transport and Surface Preparation
+# 5. Horizontal Transport and Surface Preparation
 
-## 4.1 Sled Transport Mechanics
+## 5.1 Sled Transport Mechanics
 
 Once blocks are lifted to mastaba height, horizontal movement dominates:
 
@@ -122,7 +321,7 @@ Once blocks are lifted to mastaba height, horizontal movement dominates:
 - **Team size**: 10-15 workers per 2.5-tonne block on wetted surface
 - **Distance**: Typically 1-3 meters from perimeter to final position
 
-## 4.2 Surface Damage Mitigation
+## 5.2 Surface Damage Mitigation
 
 Repeated sliding across stone surfaces poses wear risks. Proposed mitigations:
 
@@ -131,22 +330,22 @@ Repeated sliding across stone surfaces poses wear risks. Proposed mitigations:
 - **Designated pathways** concentrate traffic on renewable wooden surfaces
 - **Progressive casing** (see Section 8.2) may have protected lower levels during upper construction
 
-## 4.3 **OPEN QUESTION: Surface Wear Rates**
+## 5.3 **OPEN QUESTION: Surface Wear Rates**
 
 *Archaeological analysis of interior pyramid stones for wear patterns, plus experimental archaeology with replica sleds, could validate or refine the surface preparation requirements.*
 
 ---
 
-# 5. Step-by-Step Construction Sequence
+# 6. Step-by-Step Construction Sequence
 
-## 5.1 Foundation and Level 1
+## 6.1 Foundation and Level 1
 
 1. **Site preparation**: Bedrock leveled using water-filled trenches (known Egyptian technique)
 2. **Water leveling**: Interconnected trenches filled to establish horizontal datum
 3. **Baseline establishment**: Trenches drained, level surface verified
 4. **First mastaba**: Built directly on prepared bedrock using standard block placement
 
-## 5.2 Mastaba Level 2 Through N
+## 6.2 Mastaba Level 2 Through N
 
 For each subsequent level (n = 2, 3, ..., ~200):
 
@@ -158,7 +357,7 @@ For each subsequent level (n = 2, 3, ..., ~200):
 6. **Verify level** using water-based or plumb-line techniques
 7. **Proceed to next level** with reduced perimeter
 
-## 5.3 Apex Completion
+## 6.3 Apex Completion
 
 - Final mastaba levels too small for full alternating strategy
 - Top 10-15 levels may use simplified direct placement
@@ -166,9 +365,9 @@ For each subsequent level (n = 2, 3, ..., ~200):
 
 ---
 
-# 6. Workforce Organization and Parallelization
+# 7. Workforce Organization and Parallelization
 
-## 6.1 The Parallelization Advantage
+## 7.1 The Parallelization Advantage
 
 A critical strength of mastaba-based construction is simultaneous multi-level activity:
 
@@ -178,9 +377,9 @@ A critical strength of mastaba-based construction is simultaneous multi-level ac
 
 At peak activity, **10-20 mastaba levels operate simultaneously**, distributing thousands of workers across independent workspaces.
 
-## 6.2 Workforce Breakdown
+## 7.2 Workforce Breakdown
 
-#```{r workforce-table, echo=FALSE}
+```{r workforce-table, echo=FALSE}
 library(knitr)
 workforce <- data.frame(
   Category = c("Quarrying & shaping", "Transport teams", "Cribbing & lifting crews",
@@ -189,11 +388,11 @@ workforce <- data.frame(
   Percentage = c(25, 20, 15, 7, 13, 100)
 )
 kable(workforce, caption = "Estimated Workforce Distribution")
-#```
+```
 
-## 6.3 Production Rate Requirements
+## 7.3 Production Rate Requirements
 
-#```{r production-calc, echo=TRUE}
+```{r production-calc, echo=FALSE, results='asis'}
 # Constants
 total_blocks <- 2.3e6
 construction_years <- 20
@@ -204,18 +403,20 @@ total_working_days <- construction_years * working_days_per_year
 blocks_per_day <- total_blocks / total_working_days
 blocks_per_hour <- blocks_per_day / 10  # 10-hour workday
 
-cat(sprintf("Required placement rate:\n"))
-cat(sprintf("  - %.0f blocks per day\n", blocks_per_day))
-cat(sprintf("  - %.1f blocks per hour across entire site\n", blocks_per_hour))
-#```
+cat(sprintf(
+"Required placement rate:\n\n- **%.0f blocks per day**\n- **%.1f blocks per hour across the entire site**\n",
+blocks_per_day,
+blocks_per_hour
+))
+```
 
 This rate is achievable with 10,000-12,000 workers when work is properly parallelized across ~200 mastaba levels over 20 years.
 
 ---
 
-# 7. Quality Control and Precision Maintenance
+# 8. Quality Control and Precision Maintenance
 
-## 7.1 Horizontal Leveling
+## 8.1 Horizontal Leveling
 
 The foundation's water-leveling technique provides the critical baseline:
 
@@ -224,14 +425,14 @@ The foundation's water-leveling technique provides the critical baseline:
 - **Cumulative error** monitored and corrected at each level
 - **Known result**: Great Pyramid base level within 2cm over 230m
 
-## 7.2 Vertical Alignment
+## 8.2 Vertical Alignment  
+  
+- **Corner plumb lines** maintained from foundation throughout construction  
+- **Intermediate reference points** established at regular intervals  
+- **Survey teams** dedicated to verification between levels  
+- **Correction protocol**: Minor adjustments made during block placement  
 
-- **Corner plumb lines** maintained from foundation throughout construction
-- **Intermediate reference points** established at regular intervals
-- **Survey teams** dedicated to verification between levels
-- **Correction protocol**: Minor adjustments made during block placement
-
-## 7.3 **OPEN QUESTION: Precision Propagation**
+## 8.3 **OPEN QUESTION: Precision Propagation**
 
 *While the water-leveling foundation is well-documented, the specific methods for maintaining precision across 200+ levels with thousands of parallel workers remains unclear. This requires:*
 
@@ -241,20 +442,20 @@ The foundation's water-leveling technique provides the critical baseline:
 
 ---
 
-# 8. Special Cases and Exceptions
+# 9. Special Cases and Exceptions
 
-## 8.1 Casing Stones
+## 9.1 Casing Stones
 
 The theory as presented focuses on core construction. Casing stones present additional complexity:
 
 **Archaeological Evidence**: Unfinished pyramids suggest casing was placed progressively during construction, not top-down afterward.
 
-**Revised Sequence**: 
-- Casing stones for lower mastabas likely placed **during or shortly after** core completion at that level
-- Provides working surface protection for subsequent levels
-- Final polishing performed after pyramid completion
+**Revised Sequence**:  
+- Casing stones for lower mastabas likely placed **during or shortly after** core completion at that level  
+- Provides working surface protection for subsequent levels  
+- Final polishing performed after pyramid completion  
 
-## 8.2 **OPEN QUESTION: Casing Integration**
+## 9.2 **OPEN QUESTION: Casing Integration**
 
 *The exact sequence of core vs. casing placement needs refinement. Possibilities include:*
 
@@ -262,31 +463,31 @@ The theory as presented focuses on core construction. Casing stones present addi
 - *Casing placed 5-10 levels behind core construction*
 - *Bottom-up casing after core completion (contradicts archaeological evidence)*
 
-## 8.3 Internal Chambers and Passages
+## 9.3 Internal Chambers and Passages
 
 The King's Chamber, Queen's Chamber, Grand Gallery, and passage systems pose significant challenges:
 
-**Integration Strategy**:
-- Chambers built as construction reaches appropriate height
-- Corbelled ceilings (Grand Gallery) constructed in stages as mastaba levels rise
-- Passages formed by omitting blocks in predetermined positions
+**Integration Strategy**:  
+- Chambers built as construction reaches appropriate height  
+- Corbelled ceilings (Grand Gallery) constructed in stages as mastaba levels rise  
+- Passages formed by omitting blocks in predetermined positions  
 
-## 8.4 **CRITICAL GAP: Massive Granite Elements**
+## 9.4 **CRITICAL GAP: Massive Granite Elements**
 
 The King's Chamber roof contains 40+ tonne granite beams. These cannot be handled via the 2.5-tonne block method.
 
-**Possible Approaches**:
-- Dedicated internal ramps for exceptional blocks
-- Pre-positioning during early construction with building around them
-- Alternative lifting technology (stone counterweights, larger teams)
+**Possible Approaches**:  
+- Dedicated internal ramps for exceptional blocks  
+- Pre-positioning during early construction with building around them  
+- Alternative lifting technology (stone counterweights, larger teams)  
 
 *This remains the theory's most significant unresolved challenge.*
 
 ---
 
-# 9. Archaeological and Historical Context
+# 10. Archaeological and Historical Context
 
-## 9.1 Supporting Evidence
+## 10.1 Supporting Evidence
 
 - **Sled transport**: Well-documented in Egyptian art (Djehutihotep tomb)
 - **Lever use**: Depicted in multiple tomb paintings and reliefs
@@ -294,7 +495,7 @@ The King's Chamber roof contains 40+ tonne granite beams. These cannot be handle
 - **Worker villages**: Discovered at Giza, confirming 10,000-20,000 scale workforce
 - **Water leveling**: Described by Herodotus, validated by modern survey
 
-## 9.2 **NEEDED: Specific Archaeological Validation**
+## 10.2 **NEEDED: Specific Archaeological Validation**
 
 *The theory requires engagement with:*
 
@@ -305,27 +506,27 @@ The King's Chamber roof contains 40+ tonne granite beams. These cannot be handle
 
 ---
 
-# 10. Comparison with Alternative Theories
+# 11. Comparison with Alternative Theories
 
-## 10.1 External Ramp Theory
+## 11.1 External Ramp Theory
 
 **Problem**: Linear ramp reaching 146m height requires impractical volume and length
 
 **Our advantage**: No external ramps needed
 
-## 10.2 Spiral Ramp Theory
+## 11.2 Spiral Ramp Theory
 
 **Problem**: Corner turning with heavy blocks extremely difficult
 
 **Our advantage**: Primarily horizontal movement on stable surfaces
 
-## 10.3 Internal Ramp Theory (Houdin)
+## 11.3 Internal Ramp Theory (Houdin)
 
 **Problem**: Requires specific internal architecture not clearly evidenced
 
 **Our advantage**: Uses external, observable construction sequence
 
-## 10.4 **OPEN QUESTION: Theory Testing**
+## 11.4 **OPEN QUESTION: Theory Testing**
 
 *Distinguishing between theories requires:*
 
@@ -335,20 +536,22 @@ The King's Chamber roof contains 40+ tonne granite beams. These cannot be handle
 
 ---
 
-# 11. Limitations and Future Work
+# 12. Limitations and Future Work
 
-## 11.1 Current Theory Limitations
+## 12.1 Current Theory Limitations
 
-This theory currently provides:
-- ✓ Mechanically plausible core construction method
-- ✓ Realistic workforce estimates
-- ✓ Parallelization framework
-- ✗ Incomplete treatment of special blocks (granite beams)
-- ✗ Limited casing stone integration details
-- ✗ Insufficient precision maintenance specifics
-- ✗ Minimal archaeological evidence engagement
+This theory currently provides:  
+- Mechanically plausible core construction method  
+- Realistic workforce estimates  
+- Parallelization framework  
 
-## 11.2 Priority Research Directions
+On the other hand, the following aspects need to be explored further:  
+- Incomplete treatment of special blocks (granite beams)  
+- Limited casing stone integration details  
+- Insufficient precision maintenance specifics  
+- Minimal archaeological evidence engagement  
+
+## 12.2 Priority Research Directions
 
 1. **Mechanical engineering analysis** of cribbing loads and lever mechanics
 2. **Experimental archaeology** testing alternating block placement at scale
@@ -358,7 +561,7 @@ This theory currently provides:
 
 ---
 
-# 12. Conclusion
+# 13. Conclusion
 
 The incremental mastaba-based construction theory offers a mechanically plausible, labor-efficient explanation for pyramid construction that avoids the geometric impossibilities of extreme external ramps. By decomposing construction into small, repeatable tasks and exploiting massive parallel labor across simultaneously active levels, it demonstrates how a 10,000-12,000 person workforce could construct the Great Pyramid over 20 years.
 
@@ -370,26 +573,14 @@ The theory reframes pyramids not as inexplicable engineering marvels, but as the
 
 ---
 
-# Appendix A: Workforce Estimates
-
-*(Include your existing Appendix A here with minor formatting adjustments)*
-
----
-
 # References
-
-*(Add relevant Egyptological sources, engineering texts, and archaeological reports)*
 
 - Lehner, M. (1997). *The Complete Pyramids*. Thames & Hudson.
 - Arnold, D. (1991). *Building in Egypt: Pharaonic Stone Masonry*. Oxford University Press.
 - Clarke, S. & Engelbach, R. (1990). *Ancient Egyptian Construction and Architecture*. Dover.
 - Smith, C.S. (2018). *How the Great Pyramid Was Built*. Smithsonian Books.
+- Stocks, D.A. (2003). *Experiments in Egyptian Archaeology: Stoneworking Technology in Ancient Egypt*. Routledge.
+- Houdin, J.P. & Brier, B. (2008). *The Secret of the Great Pyramid*. Smithsonian Books.
+- Bonn, D., et al. (2014). "Sliding Friction on Wet and Dry Sand." *Physical Review Letters*, 112, 175502.
+- Lehner, M. & Hawass, Z. (2017). *Giza and the Pyramids: The Definitive Story*. University of Chicago Press.
 
----
-
-# Document Status
-
-**Version**: 2.0 (Revised with clarifications)  
-**Date**: `r Sys.Date()`  
-**Status**: Working theory with identified gaps requiring further research  
-**Feedback**: Comments welcome on mechanical feasibility, archaeological alignment, and research priorities
